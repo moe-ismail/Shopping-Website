@@ -1,0 +1,252 @@
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.font-raleway {
+
+}
+header {
+
+
+    justify-content: space-around;
+
+}
+nav {
+    list-style: none;
+    overflow:hidden;
+    float: right;
+}
+
+nav ul li {
+    font-family: Raleway;
+    font-size:20px;
+    float:right;
+    padding:20px 10px 2px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+}
+
+  nav ul li a:hover,
+   nav ul li a:active{
+    color:#339999 ;
+}
+
+li > a > img{
+    width:25px;
+    height:25px;
+    margin: -5px 0 0 0;
+}
+
+.banner {
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      background-image: url(assets/images/banner-girl.png), url(assets/images/flower-bkgd.jpg);
+      background-size: 20%, 100%;
+      background-position: bottom, center;
+      background-repeat: no-repeat, no-repeat;
+      width: 100%;
+      height: 750px;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: lighter;
+    font-family: myFirstFont;
+}
+
+h2 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 70px;
+    font-weight: lighter;
+    font-family: mySecondFont;
+}
+
+.description {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    font-family: myFirstFont;
+    font-weight: lighter;
+    color: #8e8b8b ;
+    font-size: 20px;
+}
+
+h3 {
+
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #464547 ;
+    font-family: myThirdFont;
+}
+
+.spacing {
+    border-top: 2px solid #d4d7db ;
+}
+
+h4 {
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #464547 ;
+    border-top: 10px solid black;
+    padding-top: 50px;
+    font-family: myThirdFont;
+}
+
+.border {
+    border: px dashed #8e8b8b ;
+}
+
+.clothing {
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    text-align: center;
+    align-content: space-around;
+}
+
+.ocean {
+    justify-content: center;
+    align-items: center;
+    background-image: url("assets/images/wave-bkgd.jpg");
+    height: 450px;
+    background-position: bottom;
+}
+
+h5 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: myFourthFont;
+}
+
+div p {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: myFirstFont;
+    font-weight: lighter;
+    color: white;
+    font-size: 20px;
+}
+
+.subscribe {
+    justify-content: center;
+    alig
+    background-color: white;
+    border-radius: 5%;
+    width: 70%
+}
+#container
+{
+    height:400px;
+    width:400px;
+    position:relative;
+}
+
+#image
+{
+    position:absolute;
+    left:0;
+    top:0;
+}
+#text
+{
+    z-index:100;
+    position:absolute;
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    left:150px;
+    top:350px;
+}
+.conatiner2{
+  height: 400px;
+  width: 400px;
+  position: relative;
+
+}
+
+
+
+
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 10px;
+    background: white;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.info {
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 80px 30px 80px 30px;
+}
+
+}
+
+div ul {
+    color: white;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("assets/fonts/Raleway-Light.ttf")
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url("assets/fonts/PlayfairDisplay-Regular.otf")
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url("assets/fonts/PlayfairDisplay-Italic.otf")
+}
+
+@font-face {
+    font-family: myFourthFont;
+    src: url("assets/fonts/PlayfairDisplay-Italic.otf")
+}
+.margin-right-sm{
+  margin-right:10px:
+}
