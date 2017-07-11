@@ -3,116 +3,129 @@
   <head>
     <title>Shopping site</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="flex.css"/>
   </head>
 
 <body>
-  <header>
-    <img src="assets/images/aloha-logo.svg">
 
-    <img src="assets/images/cart-icon.svg">
+  <header> 
+    <div class="logo">
+    <img src="assets/images/aloha-logo.svg">
+    <img src="assets/images/cart-icon.svg"> 
+  
+  </div>
+
   </header>
 
- <section class="banner flex flex-center flex-cbl">
-    <img src="assets/images/banner-girl.png"/>
-    <div class="container2">
+  <main>
 
-        <p id="text">
-            Spring Summer 2016
-        </p>
-    </div>
-
-  </section>
-
-
- <main>
-
-
-   <section>
-      <h3>Hand-Crafted Styles</h3>
-      <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of productsor sign-up for updates below</p>
+    <section class="banner flex-ali-con-sta">
+      <div class ="banner">
+        <p> new collection </p>
+        <h6> Spring summer 2016 </h6>
+      </div>
     </section>
 
    <section>
-    display:flex;
-     <h3>Most-Loved Products</h3>
+      <h2> Hand-Crafted Styles </h2>
+      <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of productsor sign-up for updates below</p>
+      
 
-   <div class="clothing">
-      <div>
-        <img src="assets/images/stretch-knit-dress.jpg"/>
-        <p>DRESSES</p>
-        <p>Stretch Knit Dress</p>
-        <p>$169.00</p>
-      </div>
+    </section>
 
-     <div>
-       <img src="assets/images/cotton-blue-shirt.jpg"/>
-        <p>SHIRTS</p>
-        <p>Cotton Blue Shirt</p>
-        <p>$89.00</p>
-      </div>
 
-     <div>
+   <section class="=clothing">
+     <h2><span class="font-ita pad-up-down">Most-loved </span><span class="font-we-bo">clothing</span></h2>
+
+
+<div class="flex bgcw text-ali-c tablet-flex-row">      
+    <div class="child pad-sml">
+      <img src="assets/images/stretch-knit-dress.jpg">
+      <p> DRESSES </p>
+      <h4>  Stretch Knit Dress </h4>
+      <p> $169.00</p>
+    </div>
+
+          
+    <div class="child pad-sml">
+      <img src="assets/images/cotton-blue-shirt.jpg">
+      <p>SHIRTS</p>
+      <h4> Cotton blue shirt</h4>     
+      <p>$89.00</p>
+    </div>
+     
+
+     <div class="child pad-sml">
       <img src="assets/images/checked-stretch-dress.jpg"/>
         <p>DRESSES</p>
-        <p>Checked Stretch Dress</p>
+        <h4>Checked Stretch Dress</h4>
         <p>$129.00</p>
       </div>
 
-     <div>
+     <div class="child pad-sml">
        <img src="assets/images/blue-hipster-backpack.jpg"/>
-        <p>BAGS</p>
-        <p>Blue Hipster Backpack</p>
-        <p>$69.00</p>
-      </div>
+       <p>BAGS</p>
+       <h4>Blue Hipster Backpack</h4>
+       <p>$69.00</p>
     </div>
-    </section>
 
- </main>
+  </div>
+</section>
 
  <section>
-display:flex;
 
-
-   <section id="showcase">
-     <div class ="Container">
+<section class="showcase flex-jus-start c ">
+   <div class ="showcase">
        <h1> Sign up for updates </h1>
        <form>
-         <input type = "email" placeholder="Your email">
-         <button type = "submit" class = "button1">Subcribe</button>
+        <input type = "email" placeholder="Your email">
+      <button type = "submit" class = "button1">Subcribe</button>
        </form>
      </div>
 
-
+</section>
 
  </section>
 
  <footer>
-    <div class="container">
-      <img src="assets/images/wave-bkgd.jpg"
-    <p ="text">
+     <section class="ocean flex-ali-cen c flex-jus-start">
+          <div class="ocean">
+                <h3> Sign up for updates </h3>
+                </div>
+
+                    </section>
+    <p>
       Stayupdated on our latest product releases, be first to find out about
       upcoming sales, and get free style tips from our blog. Unsubscribe at any time.
     </p>
-    </div>
+
+    <div class="info">
+
       <ul>
-        <li>2016 Aloha Apparel Co.</li>
+        <p>@2016 Aloha Apparel Co. </p>
         <li>Powered by HTML and CSS.</li>
         <li>604-604-6040 info@alohaapparel.com</li>
         <li>1490 W Broadway</li>
         <li>Vancouver, BC, Canada</li>
       </ul>
+</div>
+
     </div>
 
-   <div>
-      <ul>
+   
+<ul>
         <li>Facebook</li>
         <li>Twitter</li>
         <li>Instagram</li>
         <li>Pinterest</li>
         <li>Google+</li>
-      </ul>
-    </div>
-  </footer>
-
+</ul>
+</div>
+</footer>
+</main>
+</body>
 </html>
+
+
+
